@@ -1,15 +1,11 @@
-import PropTypes from 'prop-types';
+import LandingPage from './components/Landing/LandingPage';
 import GlobalStyle from './components/styling/GlobalStyle';
 
-const App = ({ title }) => (
+const App = () => (
   <div>
     <GlobalStyle />
-    {title}
+    <LandingPage />
   </div>
 );
-
-App.propTypes = {
-  title: PropTypes.string,
-};
 
 export default App;
