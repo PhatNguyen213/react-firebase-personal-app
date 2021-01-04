@@ -6,14 +6,21 @@
     "react/jsx-uses-react": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/require-default-props": "off",
+    "react/jsx-props-no-spreading": "off",
     "linebreak-style": "off",
     "eol-last": "off",
     "comma-dangle": "off",
+    "object-curly-newline":"off",
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "import/no-unresolved": "off",
     "import/no-dynamic-require": "off",
     "global-require": "off",
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "arrow-parens": ["error", "as-needed"],
+    "import/extensions": "off",
+    "no-confusing-arrow": "off",
+    "implicit-arrow-linebreak": "off",
+    "react/prop-types": "off"
   },
   "env": {
     "browser": true,

@@ -37,7 +37,5 @@ module.exports = {
     filename: '[name].[fullhash].bundle.js',
     publicPath: '/',
   },
-  plugins: [
-    new CleanWebpackPlugin()
-  ],
+  plugins: [new CleanWebpackPlugin()],
 };

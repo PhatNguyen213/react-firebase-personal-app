@@ -1,10 +1,7 @@
 import ReactDOM from 'react-dom';
-
-import App from './App';
-
-const title = 'My React Webpack Babel Setup';
+import App from './components/App';
 
 ReactDOM.render(
-  <App title={title} />,
+  <App />,
   document.getElementById('app')
 );
