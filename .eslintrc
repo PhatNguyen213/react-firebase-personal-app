@@ -20,7 +20,9 @@
     "import/extensions": "off",
     "no-confusing-arrow": "off",
     "implicit-arrow-linebreak": "off",
-    "react/prop-types": "off"
+    "import/order": "off",
+    "react/prop-types": "off",
+    "react/forbid-prop-types": "off"
   },
   "env": {
     "browser": true,

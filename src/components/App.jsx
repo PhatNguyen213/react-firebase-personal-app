@@ -1,8 +1,8 @@
 import Login from '@components/auth/Login';
-import Register from '@components/auth/Register';
 import GlobalStyle from '@components/styling/GlobalStyle';
 import LandingPage from '@components/Landing/LandingPage';
 import { BrowserRouter, Redirect, Route } from 'react-router-dom';
+import './styling/App.scss';
 
 /** ROUTES */
 
@@ -36,7 +36,7 @@ function App() {
       <GlobalStyle />
       <BrowserRouter>
         <PublicRoute path="/login" component={Login} />
-        <PublicRoute path="/register" component={Register} />
+        {/* <PublicRoute path="/register" component={Register} /> */}
         <PrivateRoute exact path="/" component={LandingPage} />
       </BrowserRouter>
     </div>
