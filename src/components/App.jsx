@@ -1,6 +1,6 @@
 import Login from '@components/auth/Login';
 import GlobalStyle from '@components/styling/GlobalStyle';
-import LandingPage from '@components/Landing/LandingPage';
+import LandingPage from '@components/Landing/LandingPageMui';
 import { BrowserRouter, Redirect, Route } from 'react-router-dom';
 import './styling/App.scss';
 

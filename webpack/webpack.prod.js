@@ -41,6 +41,18 @@ module.exports = {
           chunks: 'all',
           enforce: true,
         },
+        kendo: {
+          test: /[\\/]node_modules[\\/](@progress)[\\/]/,
+          name: 'kendo',
+          chunks: 'all',
+          enforce: true,
+        },
+        material: {
+          test: /[\\/]node_modules[\\/](@material-ui)[\\/]/,
+          name: 'material',
+          chunks: 'all',
+          enforce: true,
+        },
       },
     },
   },
